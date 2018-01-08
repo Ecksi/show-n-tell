@@ -23,7 +23,7 @@ body {
   padding-top: 20px;
   font-weight: bold;
   font-size: 20px;
-  font-family: "Courier New";
+  font-family: "Courier New", serif;
 }
 
 .nav-bar {
@@ -35,7 +35,21 @@ body {
   bottom: 0;
   width: 100%;
   height: 60px;
-  background:#6cf;
+  background:#0838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.created-by {
+  display: inline;
+  font-size: 18px;
+  padding-right: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.social {
+  padding: 0 8px;
 }
 
 .main-content {
