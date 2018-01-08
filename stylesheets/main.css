@@ -8,6 +8,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 100%;
 }
 
 .header {
@@ -19,4 +20,29 @@ body {
 .header-nav {
   display: flex;
   flex-direction: row;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background:#6cf;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.spacer {
+  width: 39%;
+}
+
+.the-biz {
+  width: 60%;
+}
+
+.just {
+  padding-top: 20px;
 }
