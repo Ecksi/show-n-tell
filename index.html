@@ -1,92 +1,118 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Kung Fu</title>
-    <link rel="stylesheet" href="stylesheets/reset.css">
-    <link rel="stylesheet" href="stylesheets/main.css">
-  </head>
-  <body>
 
-    <header class="header">
-      <div class="header-left">
-        <h1>This will be an image<h1>
-      </div>
-      <nav class="header-nav">
-        <div class="nav-bar">
-          <a href="#">Kung Fu</a>
-        </div> |
-        <div class="nav-bar">
-          <a href="#">Qigong</a>
-        </div> |
-        <div class="nav-bar">
-          <a href="#">Find out More</a>
-        </div>
-      </nav>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <title>Kung Fu</title>
+  <link rel="stylesheet" href="stylesheets/reset.css">
+  <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Eczar">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Berkshire+Swash">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display">
+</head>
 
-    <div class="main-content">
-      <aside class="spacer">
-
-      </aside>
-
-      <main class="the-biz">
-        <h2>Kung Fu</h2>
-        <img src="#" alt="">
-        <blockquote cite="http://">
-          <p>It means, "supreme skill from hard work." A great poet has reached kung fu. The painter, the calligrapher, they can be said to have kung fu. Even the cook, the one who sweeps steps or a masterful servant can have kung fu. Practice.</p>
-          <p>Preparation. Endless repetition. Until your mind is weary, and your bones ache. Until you're too tired to sweat, to wasted to breathe. That is the way, the only way one acquires kung fu.</p>
-          <p>Kung Fu applies directly to programming. To become a supreme programmer, one must put in hard work. Endless repetition, trial and error, and struggle. Hours on the keys, reading docs, making wire frames, looking for semi-colons.</p>
-      </blockquote>
-
-      <h2>Qi Gong</h2>
-      <img src="#" alt="">
-      <p>If Kung Fu is for training the outside of the body, Qi Gong is for training the inside. Qigong involves moving meditation, deep rythmic breathing, and calm meditative state of mind.</p>
-      </main>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <img src="./images/cat-icon.png" alt="cat logo" class="nav-pic">
     </div>
+    <nav class="header-nav">
+      <div class="nav-bar">
+        <a href="#">Link</a>
+      </div> |
+      <div class="nav-bar">
+        <a href="#">Link</a>
+      </div> |
+      <div class="nav-bar">
+        <a href="#">Link</a>
+      </div> |
+      <div class="nav-bar">
+        <a href="#">Link</a>
+      </div> |
+      <div class="nav-bar">
+        <a href="#">Link</a>
+      </div>
+    </nav>
+  </header>
 
-    <div class="just">
-      <h3>How to get started</h3>
+  <main class="main-content">
+    <div class="col-1-3 section-content">
+      <h2 class="section-header">Kung Fu</h2>
+      <blockquote cite="http://">
+        <p class="quote">"It means, supreme skill from hard work. A great poet has reached kung fu. The painter, the calligrapher, they can be said to have kung fu. Even the cook, the one who sweeps steps or a masterful servant can have kung fu. Practice. Preparation.
+          Endless repetition. Until your mind is weary, and your bones ache. Until you're too tired to sweat, to wasted to breathe. That is the way, the only way one acquires kung fu."</p>
+        <p class="quote-author">-- One Hundred Eyes, Marco Polo</p>
+      </blockquote>
+      <p class="section-content">Kung fu is a Chinese term referring to any study, learning, or practice that requires patience, energy, and time to complete. In its original meaning, kung fu can refer to any discipline or skill achieved through hard work and practice, not necessarily
+        martial arts.</p>
+      <h3 class="section-sub-header">How to get started</h3>
       <p>You can train at any of these locations:</p>
-      <ul>
-        <li><a href="#">School 1</a></li>
-        <li><a href="#">School 2</a></li>
-        <li><a href="#">School 3</a></li>
+      <ul class="learn-more">
+        <li><a href="http://www.denvershaolinkungfuacademy.com/">Denver Shaolin Kung Fu Academy</a></li>
+        <li><a href="https://kungfudenver.com/">Denver Ving Tsun Kung Fu</a></li>
+        <li><a href="http://www.bodymindsystemscolorado.com/">Body Mind Systems</a></li>
       </ul>
-      <p>YouTube resources</p>
+
+      <h3 class="section-sub-header">Benefits of Kung Fu</h3>
+      <p>Enjoy these benefits plus many more!</p>
       <ol>
-        <li><a href="#">Wu Bu Quan</a></li>
-        <li><a href="#">Qigong</a></li>
-        <li><a href="#">Some other thing</a></li>
+        <li>Improved Health</li>
+        <li>Better Balance</li>
+        <li>Increased Flexibility</li>
       </ol>
     </div>
 
-    <div class="">
-      <fieldset>
-        <legend>Want to know more?</legend>
-        <label for="fullName">Name:
-        <input type="text" name="fullName" value=""></label>
-        <label for="email">Email:
-        <input type="text" name="email" value=""></label>
-        <label for="phone">Phone:
-        <input type="text" name="phone" value=""></label>
-        <select class="" name="prefContact">
-          <option value="email">Email</option>
-          <option value="text">Text</option>
-          <option value="phone">Phone</option>
-        </select>
-        <input type="checkbox" name="interests" value="Kung Fu">Kung Fu
-        <input type="checkbox" name="interests" value="Qigong">Qigong
-        <input type="checkbox" name="interests" value="Both">Both
-        <input type="submit" name="submit" value="Submit">
-      </fieldset>
+    <div class="col-2-3">
+      <img src="./images/kf-cat.jpg" alt="A cat doing Kung Fu" class="section-pic">
+      <img src="./images/kf-cat2.jpg" alt="A cat doing Qi Gong" class="section-pic">
+      <img src="./images/kf-cat3.jpg" alt="A cat doing Qi Gong" class="section-pic">
     </div>
 
-    <footer class="footer">
-      <p class="created-by">A show-n-tell by Jim Dechant</p>
-      <a href="https://github.com/Ecksi"><img src="images/social-git.svg" class="social"></a>
-      <a href="https://www.linkedin.com/in/jim-dechant/"><img src="images/social-linkedin.svg" class="social"></a>
-      <a href="https://turingschool.slack.com/messages/C029P2S9X/team/U76BXLMLZ/"><img src="images/social-slack.svg" class="social"></a>
-    </footer>
-  </body>
+    <div class="col-3-3">
+      <fieldset class="form">
+        <legend>Want to know more?</legend>
+        <form>
+          <ul class="form-style-1">
+            <li><label>Full Name: <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+            <li>
+              <label>Email: <span class="required">*</span></label>
+              <input type="email" name="field3" class="field-long" />
+            </li>
+            <li>
+              <label>Subject:</label>
+              <select name="field4" class="field-select">
+        <option value="Value One">Value One</option>
+        <option value="Value Two">Value Two</option>
+        <option value="Value Three">Value Three</option>
+        </select>
+            </li>
+            <li>
+            <label>More Information on:</label>
+            <input type="checkbox" name="interests" value="Kung Fu">Kung Fu
+            <input type="checkbox" name="interests" value="Qi Gong">Qi Gong
+            <input type="checkbox" name="interests" value="Both">Classes
+          </li>
+            <li>
+              <label>Your Message: <span class="required">*</span></label>
+              <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+            </li>
+            <li>
+              <input type="submit" value="Submit" />
+            </li>
+          </ul>
+        </form>
+      </fieldset>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="created-by">A show-n-tell by Jim Dechant</p>
+    <a href="https://github.com/Ecksi"><img src="images/social-git.svg" class="social"></a>
+    <a href="https://www.linkedin.com/in/jim-dechant/"><img src="images/social-linkedin.svg" class="social"></a>
+    <a href="https://turingschool.slack.com/messages/C029P2S9X/team/U76BXLMLZ/"><img src="images/social-google.svg" class="social"></a>
+    <a href="https://turingschool.slack.com/messages/C029P2S9X/team/U76BXLMLZ/"><img src="images/social-slack.svg" class="social"></a>
+  </footer>
+</body>
+
 </html>
