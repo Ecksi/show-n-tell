@@ -3,6 +3,25 @@
   color: beige;
 }
 
+@keyframes cat {
+  0%   {left: 600px}
+  10%  {left: 495px}
+  15%  {left: 494px}
+  25%  {left: 700px}
+  40%  {left: 700px; top: -900px; transform: rotate(0)}
+  50%  {left: -700px; top: -900px; transform: rotate(-90deg)}
+  70%  {left: -700px; top: -700px; transform: rotate(-90deg)}
+  75%  {left: -700px; top: -699px; transform: rotate(-90deg)}
+  100% {left: -700px; top: -900px; transform: rotate(-90deg)}
+}
+
+.grump {
+  margin-top: 50px;
+  position: relative;
+  left: 600px;
+  animation: cat 20s ease-in 11s;
+}
+
 body {
   background-image: url("../images/cat-bg.jpg");
   background-repeat: no-repeat;
